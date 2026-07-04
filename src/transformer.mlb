@@ -1,0 +1,6 @@
+(* MLB for sml-transformer: the vendored sml-tensor plus the transformer ops.
+   Consumers reference this file. *)
+$(SML_LIB)/basis/basis.mlb
+../lib/github.com/sjqtentacles/sml-tensor/sml-tensor.mlb
+transformer.sig
+transformer.sml
