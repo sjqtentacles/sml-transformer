@@ -15,6 +15,15 @@ and the only transcendentals are `Math.tanh`/`Math.exp`/`Math.sqrt` (both MLton
 and Poly/ML defer to the same `libm`), so results — including a whole attention
 block — are **byte-identical across the two compilers**.
 
+## Installation
+
+```
+smlpkg add github.com/sjqtentacles/sml-transformer
+smlpkg sync
+```
+
+Depends on [`sml-tensor`](https://github.com/sjqtentacles/sml-tensor) (fetched by `smlpkg sync`).
+
 ## Usage
 
 ```sml
